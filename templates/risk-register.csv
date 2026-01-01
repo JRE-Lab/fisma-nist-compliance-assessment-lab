@@ -1,0 +1,10 @@
+diff --git a/templates/risk-register.csv b/templates/risk-register.csv
+new file mode 100644
+index 0000000000000000000000000000000000000000..a223cce0e492f07199783e1505e03c22de8abf69
+--- /dev/null
++++ b/templates/risk-register.csv
+@@ -0,0 +1,4 @@
++risk_id,asset,threat,vulnerability,likelihood,impact,overall_risk,mitigation,owner,status,notes
++R-001,API gateway,Credential stuffing,Weak rate limiting,Medium,High,High,Enable adaptive rate limits and MFA,System Owner,Open,
++R-002,Database,Data exfiltration,Over-privileged service account,Low,High,Moderate,Reduce privileges and rotate secrets,DBA,Open,
++R-003,User portal,Phishing,Insufficient user training,Medium,Moderate,Moderate,Launch awareness campaign,ISSO,Planned,
