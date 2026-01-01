@@ -1,0 +1,12 @@
+diff --git a/templates/control-traceability.csv b/templates/control-traceability.csv
+new file mode 100644
+index 0000000000000000000000000000000000000000..95b3fafc57936167b443cf0c24fd5137f15e8b6b
+--- /dev/null
++++ b/templates/control-traceability.csv
+@@ -0,0 +1,6 @@
++control_id,control_name,system_component,implementation_reference,evidence,notes
++AC-2,Account Management,Identity Provider,SSP Section 6,IdP audit report,
++AC-3,Access Enforcement,API Gateway,SSP Section 6,Gateway policy config,
++AU-2,Event Logging,SIEM,SSP Section 6,Log aggregation dashboard,
++SC-13,Cryptographic Protection,Database,SSP Section 6,Encryption config,
++CM-6,Configuration Settings,Infrastructure as Code,SSP Section 6,Change records,
